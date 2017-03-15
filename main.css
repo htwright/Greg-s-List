@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 60px;
+
+  font-family: "Arial";
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.top-links {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+logo {
+  display: inline-block;
+
+}
+
+.logo h1 {
+  font-size: 18px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+
+.search input {
+  font-family: "Arial";
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 400px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+
+}
+
+.search .search-button {
+  font-size: 16px;
+  width: 35px;
+  border: 1px solid black;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding:30px;
+  padding:25px;
+
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: purple;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
